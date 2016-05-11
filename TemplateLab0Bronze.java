@@ -99,7 +99,7 @@ public class TemplateLab0Bronze {
   public static double median(int[] a, int n)
   {
     
-    double median = a[a.length/2];
+    double median = (a[a.length/2]+a[a.length/2 - (1-a.length%2)])/2;
     return median;
   }
 }//SampleSolutionLab0Bronze
